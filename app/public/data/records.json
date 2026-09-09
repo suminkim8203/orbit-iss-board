@@ -1,0 +1,33 @@
+{
+  "note": "Actual public-source capture. Platform sealed receipt has not been issued.",
+  "records": [
+    {
+      "raw": {
+        "name": "iss",
+        "id": 25544,
+        "latitude": -14.32330318,
+        "longitude": 82.314263965068,
+        "altitude": 422.44902423314,
+        "velocity": 27571.344048674,
+        "visibility": "daylight",
+        "footprint": 4519.9020691823,
+        "timestamp": 1788913535,
+        "daynum": 2461292.5177662,
+        "solar_lat": 5.3823296736003,
+        "solar_lon": 172.97626549919,
+        "units": "kilometers"
+      },
+      "reading": {
+        "signal_id": "iss-altitude",
+        "normalized_value": 422.44902423314,
+        "unit": "km",
+        "source_name": "Where the ISS at?",
+        "source_url": "https://api.wheretheiss.at/v1/satellites/25544",
+        "source_time": "2026-09-09T00:25:35.0000000+00:00",
+        "fetched_at": "2026-09-09T09:25:35.6547688+09:00",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-09-09"
+      }
+    }
+  ]
+}

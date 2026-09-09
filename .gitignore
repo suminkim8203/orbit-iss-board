@@ -1,0 +1,11 @@
+app/node_modules/
+app/dist/
+app/.wrangler/
+app/*.tsbuildinfo
+.env
+.env.*
+!.env.example
+app/public/data/build.json
+*.lock.tmp
+*.json.lock
+*.json.*.tmp
