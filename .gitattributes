@@ -1,0 +1,5 @@
+# Preserve the public contract's exact SHA-256 bytes on Windows and Linux.
+reference/** -text
+app/public/fixtures/** -text
+*.sh text eol=lf
+*.yml text eol=lf
