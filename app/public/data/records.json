@@ -1,7 +1,18 @@
 {
-  "note": "Actual public-source capture. Platform sealed receipt has not been issued.",
+  "schema_version": 1,
   "records": [
     {
+      "reading": {
+        "signal_id": "iss-altitude",
+        "normalized_value": 422.44902423314,
+        "unit": "km",
+        "source_name": "Where the ISS at?",
+        "source_url": "https://api.wheretheiss.at/v1/satellites/25544",
+        "source_time": "2026-09-09T00:25:35.0000000+00:00",
+        "fetched_at": "2026-09-09T09:25:35.6547688+09:00",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-09-09"
+      },
       "raw": {
         "name": "iss",
         "id": 25544,
@@ -16,18 +27,43 @@
         "solar_lat": 5.3823296736003,
         "solar_lon": 172.97626549919,
         "units": "kilometers"
-      },
+      }
+    },
+    {
       "reading": {
         "signal_id": "iss-altitude",
-        "normalized_value": 422.44902423314,
+        "normalized_value": 435.10930760777,
         "unit": "km",
         "source_name": "Where the ISS at?",
         "source_url": "https://api.wheretheiss.at/v1/satellites/25544",
-        "source_time": "2026-09-09T00:25:35.0000000+00:00",
-        "fetched_at": "2026-09-09T09:25:35.6547688+09:00",
+        "source_time": "2026-09-09T23:49:25.000Z",
+        "fetched_at": "2026-09-09T23:49:24.853Z",
         "record_timezone": "Asia/Seoul",
-        "record_date": "2026-09-09"
-      }
+        "record_date": "2026-09-10"
+      },
+      "raw": {
+        "name": "iss",
+        "id": 25544,
+        "latitude": -42.121489482425,
+        "longitude": 119.37330773201,
+        "altitude": 435.10930760777,
+        "velocity": 27538.050259248,
+        "visibility": "daylight",
+        "footprint": 4583.5476338885,
+        "timestamp": 1788997765,
+        "daynum": 2461293.4926505,
+        "solar_lat": 5.0140484533963,
+        "solar_lon": 181.93309408312,
+        "units": "kilometers"
+      },
+      "raw_response": "{\"name\":\"iss\",\"id\":25544,\"latitude\":-42.121489482425,\"longitude\":119.37330773201,\"altitude\":435.10930760777,\"velocity\":27538.050259248,\"visibility\":\"daylight\",\"footprint\":4583.5476338885,\"timestamp\":1788997765,\"daynum\":2461293.4926505,\"solar_lat\":5.0140484533963,\"solar_lon\":181.93309408312,\"units\":\"kilometers\"}"
     }
-  ]
+  ],
+  "collection_status": {
+    "freshness": "fresh",
+    "error_code": "none",
+    "attempted_at": "2026-09-09T23:49:24.853Z",
+    "retry_after_seconds": 0
+  },
+  "note": "Actual public-source records. This file is not a platform-issued t04_day sealed receipt."
 }
