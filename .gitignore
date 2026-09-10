@@ -9,3 +9,6 @@ app/public/data/build.json
 *.lock.tmp
 *.json.lock
 *.json.*.tmp
+.t05-test-output/
+app/test-results/
+app/playwright-report/

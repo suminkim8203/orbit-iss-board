@@ -15,7 +15,7 @@ function captured(date, altitude) {
   const raw = { id:25544,name:'iss',altitude,latitude:1,longitude:2,velocity:27500,timestamp:Date.parse(date)/1000,units:'kilometers',visibility:'daylight' };
   return { record:{ raw, reading:normalize(raw,date) },rawText:JSON.stringify(raw) };
 }
-test('collector upserts same date, preserves errors, freezes exactly two days', async () => {
+void test('collector upserts same date, preserves errors, freezes exactly two days', async () => {
   const dir=await mkdtemp(join(tmpdir(),'orbit-collector-test-')); const file=join(dir,'records.json');
   try {
     await writeFile(file, JSON.stringify({ records:[] }));
@@ -32,7 +32,7 @@ test('collector upserts same date, preserves errors, freezes exactly two days', 
     assert.equal(result.outcome,'complete');assert.equal(await readFile(file,'utf8'),before);
   } finally { await removeTestDirectory(dir); }
 });
-test('corruption and a competing collector do not erase records', async()=>{
+void test('corruption and a competing collector do not erase records', async()=>{
   const dir=await mkdtemp(join(tmpdir(),'orbit-collector-test-'));const file=join(dir,'records.json');
   try {
     await writeFile(file,'not JSON');await assert.rejects(collect({file}));assert.equal(await readFile(file,'utf8'),'not JSON');

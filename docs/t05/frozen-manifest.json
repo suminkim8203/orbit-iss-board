@@ -1,0 +1,42 @@
+{
+  "frozenAt": "2026-09-10T00:18:09.4005565Z",
+  "files": [
+    {
+      "sha256": "b36c41abafb929e3c6fd58740ed572694ba1438a1a241a87dd5f61501fc640dd",
+      "path": "docs/t05/fixed-tests-v1.md"
+    },
+    {
+      "sha256": "2cd3e5e65ef3bb199683c79c1af7b7b327f09a3e74692f5eac3cd79a67988ef0",
+      "path": "docs/t05/protocol.md"
+    },
+    {
+      "sha256": "95795dc75cb3230d25c229a90cd91203d0b278766259bf8309b9c45795155cb5",
+      "path": "docs/t05/initial-request.md"
+    },
+    {
+      "sha256": "54e14d53ebba525e9bac082b388ac2a3f3f3dcc662714a1d0ed144ef7b95d895",
+      "path": "app/tests/t05/fixtures.mjs"
+    },
+    {
+      "sha256": "e0ee1baae9d050d9bed619b95cd9ec1274c404073d0a3c787d97fab124a0a884",
+      "path": "app/tests/t05/vite.config.mjs"
+    },
+    {
+      "sha256": "7d4e240bc9768d2143b3f4a858d9e2ff7f53e8302e113a12829f662fb08bc8bc",
+      "path": "app/tests/t05/playwright.config.mjs"
+    },
+    {
+      "sha256": "9f47c442d3592641de57ec33e61078a4d4e0127749d4b177a4cc7cc37084c5f5",
+      "path": "app/tests/t05/reporter.mjs"
+    },
+    {
+      "sha256": "2e8b209d3fd45a47bb9d3fa6f2cceac3a33d9c71dc218a42cbbdf33b251566bc",
+      "path": "app/tests/t05/csv.spec.mjs"
+    },
+    {
+      "sha256": "831e855ffb929d3f98af87a6b0dbe1ad664ed8ba87f66305e6051b9045c15e9a",
+      "path": "scripts/t05-verify-frozen.mjs"
+    }
+  ],
+  "testCount": 10
+}

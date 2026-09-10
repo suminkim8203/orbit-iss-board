@@ -1,0 +1,84 @@
+{
+  "startedAt": "2026-09-10T00:17:12.313Z",
+  "observedAt": "2026-09-10T00:18:03.201Z",
+  "phase": "preparation",
+  "sourceRevision": "a5c034dea460468029e4618f45a47ac5a75bda2b",
+  "workingTreeDirty": true,
+  "runnerStatus": "failed",
+  "count": 10,
+  "passed": 0,
+  "failed": 10,
+  "errorRound": 1,
+  "tests": [
+    {
+      "id": "T05-F01",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4343,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F02",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4306,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F03",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4331,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F04",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4353,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F05",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4368,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F06",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4327,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F07",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4280,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F08",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4697,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F09",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4330,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F10",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4541,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    }
+  ]
+}

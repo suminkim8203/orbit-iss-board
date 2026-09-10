@@ -3,3 +3,7 @@ reference/** -text
 app/public/fixtures/** -text
 *.sh text eol=lf
 *.yml text eol=lf
+app/tests/t05/** text eol=lf
+docs/t05/** text eol=lf
+docs/t05/fixed-tests-v1.md -text
+scripts/t05-*.mjs text eol=lf

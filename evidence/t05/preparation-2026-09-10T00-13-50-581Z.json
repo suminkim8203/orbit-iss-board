@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-09-10T00:13:50.581Z",
+  "endedAt": "2026-09-10T00:13:50.662Z",
+  "phase": "preparation",
+  "sourceRevision": "a5c034dea460468029e4618f45a47ac5a75bda2b",
+  "workingTreeDirty": true,
+  "runnerStatus": "failed",
+  "count": 0,
+  "passed": 0,
+  "failed": 0,
+  "errorRound": 0,
+  "tests": []
+}
