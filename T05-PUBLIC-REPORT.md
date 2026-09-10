@@ -6,8 +6,9 @@
 
 ## 결과물과 소스
 
-- 결과 화면: `https://suminkim8203.github.io/orbit-iss-board/#records`
-- 소스: 공개 후 이 보고서가 포함된 저장소의 최종 Git 개정 링크를 제출한다.
+- 공개 비교 보고서: `https://github.com/suminkim8203/orbit-iss-board/blob/main/T05-PUBLIC-REPORT.md`
+- 기능 결과 화면: `https://suminkim8203.github.io/orbit-iss-board/#records`
+- 소스 저장소: `https://github.com/suminkim8203/orbit-iss-board`
 - 최종 제품 코드 개정: `cfbc80fdcdec373baf2f0b7e78c81d0df94e7f80`
 - B 완료 증거 포함 개정: `bf60447b06a2cbb5ba4085caf10b83ec87ac0b10`
 
