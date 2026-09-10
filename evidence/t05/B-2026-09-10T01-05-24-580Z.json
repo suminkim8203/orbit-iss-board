@@ -1,0 +1,84 @@
+{
+  "startedAt": "2026-09-10T01:05:24.580Z",
+  "observedAt": "2026-09-10T01:05:36.705Z",
+  "phase": "B",
+  "sourceRevision": "ce1de3682d36eacb8998ae42e3dd631baabdfc82",
+  "workingTreeDirty": true,
+  "runnerStatus": "failed",
+  "count": 10,
+  "passed": 9,
+  "failed": 1,
+  "errorRound": 1,
+  "tests": [
+    {
+      "id": "T05-F01",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 721,
+      "error": null
+    },
+    {
+      "id": "T05-F02",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 585,
+      "error": null
+    },
+    {
+      "id": "T05-F03",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 563,
+      "error": null
+    },
+    {
+      "id": "T05-F04",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 609,
+      "error": null
+    },
+    {
+      "id": "T05-F05",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 597,
+      "error": null
+    },
+    {
+      "id": "T05-F06",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 581,
+      "error": null
+    },
+    {
+      "id": "T05-F07",
+      "status": "FAIL",
+      "runnerStatus": "failed",
+      "durationMs": 4278,
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\nExpected: visible\nTimeout: 4000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true }) with timeout 4000ms\n  - waiting for getByRole('button', { name: '관측 기록 CSV 다운로드', exact: true })\n"
+    },
+    {
+      "id": "T05-F08",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 967,
+      "error": null
+    },
+    {
+      "id": "T05-F09",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 880,
+      "error": null
+    },
+    {
+      "id": "T05-F10",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 710,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "event": "B_COMPLETE",
+  "role": "B",
+  "at": "2026-09-10T01:12:19.5919120Z",
+  "startAt": "2026-09-10T01:03:18.4752267Z",
+  "elapsedSeconds": 541.116,
+  "timeLimitSeconds": 2700,
+  "userRequests": 2,
+  "requestLimit": 8,
+  "startRevision": "08840ab7e60071d4280e03bf352c2fb6140fc040",
+  "endSourceRevision": "cfbc80fdcdec373baf2f0b7e78c81d0df94e7f80",
+  "fixedTestRuns": 3,
+  "recordedFixedTestRuns": 2,
+  "errorRounds": 2,
+  "passed": 10,
+  "failed": 0,
+  "fixedFilesVerified": 9,
+  "handoffSha256": "2d058e9337351e4659e3fd86a474e234b527f83d417e2b14e465b40a82cd942b",
+  "handoffChange": "none",
+  "infrastructureNote": "One full pre-fix test run could not be written by the frozen reporter because Git safe-directory validation failed. Its console outcomes are preserved in a separately marked recovered evidence file and it is included in the error-round total.",
+  "status": "All T05-F01 through T05-F10 passed in the final run."
+}

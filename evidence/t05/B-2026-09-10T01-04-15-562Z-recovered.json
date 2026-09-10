@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-09-10T01:04:15.562Z",
+  "observedAt": null,
+  "phase": "B",
+  "sourceRevision": "ce1de3682d36eacb8998ae42e3dd631baabdfc82",
+  "workingTreeDirty": "not captured",
+  "runnerStatus": "failed",
+  "count": 10,
+  "passed": 9,
+  "failed": 1,
+  "errorRound": 1,
+  "capture": "Recovered from the Playwright console after the frozen reporter could not write its own JSON because Git safe-directory validation failed. Test IDs and outcomes were displayed; individual durations and final observation time were not recoverable and are intentionally null.",
+  "tests": [
+    { "id": "T05-F01", "status": "PASS", "durationMs": null },
+    { "id": "T05-F02", "status": "PASS", "durationMs": null },
+    { "id": "T05-F03", "status": "PASS", "durationMs": null },
+    { "id": "T05-F04", "status": "PASS", "durationMs": null },
+    { "id": "T05-F05", "status": "PASS", "durationMs": null },
+    { "id": "T05-F06", "status": "PASS", "durationMs": null },
+    { "id": "T05-F07", "status": "FAIL", "durationMs": null },
+    { "id": "T05-F08", "status": "PASS", "durationMs": null },
+    { "id": "T05-F09", "status": "PASS", "durationMs": null },
+    { "id": "T05-F10", "status": "PASS", "durationMs": null }
+  ]
+}
