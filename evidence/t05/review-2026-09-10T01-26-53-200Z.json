@@ -1,0 +1,84 @@
+{
+  "startedAt": "2026-09-10T01:26:53.200Z",
+  "observedAt": "2026-09-10T01:27:00.958Z",
+  "phase": "review",
+  "sourceRevision": "bf60447b06a2cbb5ba4085caf10b83ec87ac0b10",
+  "workingTreeDirty": false,
+  "runnerStatus": "passed",
+  "count": 10,
+  "passed": 10,
+  "failed": 0,
+  "errorRound": 0,
+  "tests": [
+    {
+      "id": "T05-F01",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 781,
+      "error": null
+    },
+    {
+      "id": "T05-F02",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 666,
+      "error": null
+    },
+    {
+      "id": "T05-F03",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 596,
+      "error": null
+    },
+    {
+      "id": "T05-F04",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 587,
+      "error": null
+    },
+    {
+      "id": "T05-F05",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 589,
+      "error": null
+    },
+    {
+      "id": "T05-F06",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 672,
+      "error": null
+    },
+    {
+      "id": "T05-F07",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 430,
+      "error": null
+    },
+    {
+      "id": "T05-F08",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 761,
+      "error": null
+    },
+    {
+      "id": "T05-F09",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 905,
+      "error": null
+    },
+    {
+      "id": "T05-F10",
+      "status": "PASS",
+      "runnerStatus": "passed",
+      "durationMs": 708,
+      "error": null
+    }
+  ]
+}

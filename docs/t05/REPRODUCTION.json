@@ -1,0 +1,20 @@
+{
+  "documentOmissions": "None found in this verified Windows environment",
+  "build": "PASS",
+  "at": "2026-09-10T00:28:02.8761308Z",
+  "sourceClean": true,
+  "existingTestsPassed": 16,
+  "failed": 1,
+  "deliveryCorrection": "Initial bundle lacked HEAD and clone did not checkout. Recreated bundle with HEAD and verified a fresh clone at the exact version. Handoff text and product source unchanged.",
+  "passed": 9,
+  "event": "FRESH_FOLDER_REPRODUCTION",
+  "handoffChanged": false,
+  "handoffSha256": "2d058e9337351e4659e3fd86a474e234b527f83d417e2b14e465b40a82cd942b",
+  "fixedTestCount": 10,
+  "environment": "Same Windows machine, new clone and new node_modules; npm and Chromium download caches reused; Linux not tested",
+  "lint": "PASS",
+  "notes": "A has ended; this reproduction is not B activity and is excluded from A/B comparison counts.",
+  "fixedFilesVerified": 9,
+  "matchesAFinal": true,
+  "sourceRevision": "08840ab7e60071d4280e03bf352c2fb6140fc040"
+}
